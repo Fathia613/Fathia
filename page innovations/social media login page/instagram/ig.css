@@ -1,0 +1,102 @@
+:root {
+    --myboxshadow: 5px 5px 5px rgba(199,192, 192, 0.3);
+}
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 80vh;
+    background-color: whites;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+main {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+main .myForm   {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: last baseline;
+    margin-top: 30%;
+}
+main .myForm #img1{
+    width: 50%;
+}
+main .myForm #img2 {
+    width: 20px;
+    height: 20px;
+    float: left;
+   
+}
+main .myForm form {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: var(--myboxshadow);
+    border-radius: 10px;
+}
+main .myForm form input {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    border: solid 1px gray;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: var(--myboxshadow);
+}
+main .myForm form input:focus {
+    outline-color: #1877f2;
+}
+main .myForm form input::placeholder {
+    padding: 7px;
+    opacity: 0.5;
+}
+main .myForm form button {
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #1877f2;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+main .myForm form #forgot {
+    font-size: 14px;
+    color: #0c0c0c;
+    text-decoration: none;
+}
+main .myForm form #a {
+    font-size: 14px;
+    color: #1877f2;
+   text-decoration: #fafafa;
+   align-items: center;
+} 
+span{
+color: #1877f2;
+text-decoration: none;
+}
+.box2{
+    height: 80px;
+}

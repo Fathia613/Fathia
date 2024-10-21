@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy, sans-serif;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blueviolet;
+    font-family: monospace;
+    font-size: 150;
+font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    /* styling by class */
+}
+.fathia{
+    color: rgb(86, 14, 253);
+    font-size: larger;
+}
+/* styling by id */
+#fathia1{
+    color: blue;
+    padding-right: 5cap;
+}
+*div{
+    color: aqua;
+    font: caption; 
+    object-position: ;
+}
+

@@ -1,0 +1,31 @@
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+pre{
+    color: rgb(121, 120, 120);
+}
+h1{color: white;}
+h4{color: white;}
+ #ig1{
+    float: left;
+    margin-right: 10px;
+}
+#ig2{
+    float: right;
+    margin-left: 10px;
+}

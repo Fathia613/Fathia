@@ -1,0 +1,57 @@
+:root{
+    --fathiaYellow: #431ac5;
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+h1{
+    color: #6eafe9;
+    border-radius: 20px;
+    border-style: solid;
+    border: 30px;
+    box-sizing: content-box;
+    text-align: right;
+    padding-right: 40px;
+}
+div{
+   border-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-style: solid;
+   border-color: red;
+   height: 200px;
+   width: 200px;
+}
+span{
+    height: 300px;
+    width: 300px;
+    border-color: green;
+    border-radius: 20px;
+    border-style: solid;
+border: solid 3px;
+}
+.whatever{ 
+    width: 300px;
+    height: 300px;
+    background-color: var(--fathiaYellow) ;
+}
+.column{
+    border: dotted;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 5px;
+}
+.row{
+    border: dashed;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: last baseline;
+    gap: 5px;
+}

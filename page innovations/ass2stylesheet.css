@@ -1,0 +1,94 @@
+ .row1{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  h1{
+    border: dashed red;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    column-gap: 3px;
+    
+  }
+  .row2{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:last baseline ;
+  }
+  .row4{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:last baseline ;
+gap: 270px;
+  }
+.row5{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:last baseline;
+  align-items:center;
+  gap: 250px;
+}
+.row6{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  align-items:center;
+  gap: 250px;
+}
+.row7{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items:right;
+  gap: 250px;
+}
+.row8{border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:baseline;
+  align-items:top;
+  gap: 210px;
+}
+.row9{border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items:last baseline;
+  gap: 210px;
+}
+.row3{
+    border: dashed;
+    height: 400px;
+    width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+    
